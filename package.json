@@ -1,0 +1,12 @@
+{
+  "name": "persec2026-web-dev-interview-candidate",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node dist/tests/run-tests.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}
